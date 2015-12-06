@@ -17,19 +17,19 @@
 <body>
     <form method="POST" id="experiment_form">
         <label>
-            Название эксперимента:
+            Experiment name:
             <input type="text" name='title' data-validate-length='10'>
         </label>
         <label for="">
-            Задача на эксперимент:
+            Task ID:
             <input type="text" name='task' data-validate-length='10'>
         </label>
         <label for="">
-            Истекает:
+            Expires:
             <input type="text" name='expires' data-validate-date='true'>
         </label>
-        <button type="submit">Отправить</button>
-        <button type="reset">Сбросить</button>
+        <button type="submit">Send</button>
+        <button type="reset">reset</button>
         <div class="validation__errors"></div>
     </form>
 
